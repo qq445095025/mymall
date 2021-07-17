@@ -100,7 +100,7 @@ public class CodeGenerator {
         // 写于父类中的公共字段
 //        strategy.setSuperEntityColumns("person_id","person_name");
         //要设置生成哪些表 如果不设置就是生成所有的表
-        strategy.setInclude("cms_help");
+        //strategy.setInclude("cms_help_category");
         strategy.setControllerMappingHyphenStyle(true);
 //        strategy.setTablePrefix(pc.getModuleName() + "_");
         //strategy.setTablePrefix("sys_");
